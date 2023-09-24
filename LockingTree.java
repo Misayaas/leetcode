@@ -24,7 +24,6 @@ class LockingTree {
                 children[p].add(i);
             }
         }
-
     }
 
     public boolean lock(int num, int user) {
