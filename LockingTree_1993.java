@@ -2,13 +2,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class LockingTree {
+class LockingTree_1993 {
 
     private int[] parent;
     private int[] lockNodeUser;
     private List<Integer>[] children;
 
-    public LockingTree(int[] parent) {
+    public LockingTree_1993(int[] parent) {
         int n = parent.length;
         this.parent = parent;
         this.lockNodeUser = new int[n];
